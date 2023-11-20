@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(black,rgb(130, 1, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    position: relative;
+    right: 200px;
+    top: 20px;
+   color: white;
+}
+.logo{
+    position: relative;
+    
+    bottom: 50px;
+    right: -100px;
+}
+#log{
+    position: relative;
+    left: 100px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;
+    left: 80px;
+    font-size: 55px;
+}
+p{
+    color: rgb(207, 207, 207);
+    position: relative;
+    left: 80px;
+    font-size: 25px;
+   font-style: initial;
+   position: relative;
+   bottom: 12px;
+}
+button{
+    padding:10px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    color:white;
+    background-color: red;
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+    
+}
+.flex1{
+    display: flex;
+}
+.mask{
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+    height: 600px;
+    
+}
+.flex2{
+    display: flex;
+}
+h3{
+    color: beige;
+    font-weight: lighter;
+}
+.trans{
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+.trans:hover {
+ transform: translateY(-10px);
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+h2{
+    color: azure;
+    border: solid1 1px;
+    background-color: red;
+    position: fixed;
+    background-attachment: fixed;
+    padding-left: 2px;
+    margin-right: 1000px;
+    position: relative;
+    left:70px ;
+}
+s{
+    text-decoration: line-through red;
+}
+.pos{
+    position: relative;
+    bottom: 30px;
+    right: 100px;
+}
+.flex3{
+    display: flex;
+}
+.pic{
+    position: relative;
+    left: 500px;
+    top: -20px;
+}
+.pic2{
+    position: relative;
+    left: 38%;
+    
+}
