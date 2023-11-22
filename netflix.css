@@ -1,8 +1,9 @@
 body{
-    background: linear-gradient(black,rgb(130, 1, 1));
+    background: linear-gradient(black,rgb(121, 11, 11));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 .list{
     display: flex;
@@ -111,3 +112,70 @@ s{
     left: 38%;
     
 }
+.box{
+    border: solid 1px;
+   
+    padding-left: 40px;
+    justify-content: center;
+    margin-right: 900px;
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 650px;
+    left: 33.2%;
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+.box1{
+    border: solid 1px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgb(60, 61, 62);
+    font-size: large;
+    left: -20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.box2{
+    border: solid 1px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgb(60, 61, 62);
+    font-size: large;
+    position: relative;
+    left: -20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.box3{
+    left: -20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.box4{
+    border: solid 1px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgb(249, 4, 4);
+    font-size: large;
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   text-emphasis: bold;
+}
+.align1{
+position: relative;
+right: 20px;
+}
+.align2{
+    position: relative;
+    left: 300px;
+    bottom: 37px;
+ }
